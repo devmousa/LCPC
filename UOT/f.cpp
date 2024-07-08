@@ -22,7 +22,7 @@ int main()
     // if this condition (a[i] > a[j]) is false, we will continue
     // otherwise, the state will be like this:
     // dp[i] = max(dp[i], dp[j] + 1);
-    // continue with my subsequence, or take previous subsequence and add one to add (take the maximum)
+    // continue with my subsequence, or take previous subsequence and add one to it (take the maximum)
     vector<int> dp(n, 1);
     for (int i = 0; i < n; i++)
     {
